@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <script type="text/javascript" src="login.js"></script>
+
+    <title>로그인 서비스</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>로그인 서비스</h2>
+      <input
+        type="text"
+        id="user-id"
+        class="input-field"
+        placeholder="아이디 입력"
+      />
+      <input
+        type="password"
+        id="user-password"
+        class="input-field"
+        placeholder="비밀번호 입력"
+      />
+      <p class="error-message" id="error-message">
+        아이디와 비밀번호를 입력해주세요!
+      </p>
+      <button class="login-btn" onclick="login()">로그인</button>
+    </div>
+  </body>
+</html>
