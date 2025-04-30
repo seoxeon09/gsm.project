@@ -4,10 +4,10 @@ function login() {
   var errorMessage = document.getElementById('error-message');
 
   if (userId === '' || userPassword === '') {
-    //password안보이게하기기
-    errorMessage.style.display = 'block'; // 경고 메시지 표시
+    //password안보이게하기
+    errorMessage.style.display = 'block'; 
   } else {
-    errorMessage.style.display = 'none'; // 경고 메시지 숨김
+    errorMessage.style.display = 'none'; 
     alert('로그인 성공!');
   }
 }
